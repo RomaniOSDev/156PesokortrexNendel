@@ -3,33 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		302041D52FA9F15600A1DCA4 /* ProductivityFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041A02FA9F15600A1DCA4 /* ProductivityFeedback.swift */; };
+		302041D62FA9F15600A1DCA4 /* ProductivityVisualChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041A12FA9F15600A1DCA4 /* ProductivityVisualChrome.swift */; };
+		302041D72FA9F15600A1DCA4 /* ScalePressButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041A22FA9F15600A1DCA4 /* ScalePressButtonStyle.swift */; };
+		302041D82FA9F15600A1DCA4 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041A32FA9F15600A1DCA4 /* TextStyles.swift */; };
+		302041D92FA9F15600A1DCA4 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041A62FA9F15600A1DCA4 /* AppExternalLink.swift */; };
+		302041DA2FA9F15600A1DCA4 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041A72FA9F15600A1DCA4 /* AppStorage.swift */; };
+		302041DB2FA9F15600A1DCA4 /* MomentumBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041A92FA9F15600A1DCA4 /* MomentumBuilderView.swift */; };
+		302041DC2FA9F15600A1DCA4 /* MomentumBuilderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041AA2FA9F15600A1DCA4 /* MomentumBuilderViewModel.swift */; };
+		302041DD2FA9F15600A1DCA4 /* ProcessDissectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041AC2FA9F15600A1DCA4 /* ProcessDissectionView.swift */; };
+		302041DE2FA9F15600A1DCA4 /* ProcessDissectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041AD2FA9F15600A1DCA4 /* ProcessDissectionViewModel.swift */; };
+		302041DF2FA9F15600A1DCA4 /* WorkflowChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041AF2FA9F15600A1DCA4 /* WorkflowChallengeView.swift */; };
+		302041E02FA9F15600A1DCA4 /* WorkflowChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041B02FA9F15600A1DCA4 /* WorkflowChallengeViewModel.swift */; };
+		302041E12FA9F15600A1DCA4 /* ActivitySessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041B22FA9F15600A1DCA4 /* ActivitySessionCoordinator.swift */; };
+		302041E22FA9F15600A1DCA4 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041B42FA9F15600A1DCA4 /* AnalyticsView.swift */; };
+		302041E32FA9F15600A1DCA4 /* DashboardRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041B62FA9F15600A1DCA4 /* DashboardRoute.swift */; };
+		302041E42FA9F15600A1DCA4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041B72FA9F15600A1DCA4 /* DashboardView.swift */; };
+		302041E52FA9F15600A1DCA4 /* LevelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041B82FA9F15600A1DCA4 /* LevelPickerView.swift */; };
+		302041E62FA9F15600A1DCA4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041BA2FA9F15600A1DCA4 /* HomeView.swift */; };
+		302041E72FA9F15600A1DCA4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041BC2FA9F15600A1DCA4 /* MainTabView.swift */; };
+		302041E82FA9F15600A1DCA4 /* ModuleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041BE2FA9F15600A1DCA4 /* ModuleSelectionView.swift */; };
+		302041E92FA9F15600A1DCA4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041C02FA9F15600A1DCA4 /* OnboardingView.swift */; };
+		302041EA2FA9F15600A1DCA4 /* EfficiencyPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041C22FA9F15600A1DCA4 /* EfficiencyPlannerView.swift */; };
+		302041EB2FA9F15600A1DCA4 /* ActivityResultPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041C42FA9F15600A1DCA4 /* ActivityResultPayload.swift */; };
+		302041EC2FA9F15600A1DCA4 /* ActivityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041C52FA9F15600A1DCA4 /* ActivityResultView.swift */; };
+		302041ED2FA9F15600A1DCA4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041C72FA9F15600A1DCA4 /* SettingsView.swift */; };
+		302041EE2FA9F15600A1DCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041CA2FA9F15600A1DCA4 /* AppDelegate.swift */; };
+		302041EF2FA9F15600A1DCA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041CC2FA9F15600A1DCA4 /* ContentView.swift */; };
+		302041F02FA9F15600A1DCA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041D22FA9F15600A1DCA4 /* SceneDelegate.swift */; };
+		302041F12FA9F15600A1DCA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302041D32FA9F15600A1DCA4 /* ViewController.swift */; };
+		302041F22FA9F15600A1DCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302041CB2FA9F15600A1DCA4 /* Assets.xcassets */; };
+		302041F42FA9F15600A1DCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302041CF2FA9F15600A1DCA4 /* LaunchScreen.storyboard */; };
+		302041F52FA9F15600A1DCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302041D12FA9F15600A1DCA4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		302040012FA9D0EC00A1DCA4 /* 156PesokortrexNendel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 156PesokortrexNendel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		302041A02FA9F15600A1DCA4 /* ProductivityFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityFeedback.swift; sourceTree = "<group>"; };
+		302041A12FA9F15600A1DCA4 /* ProductivityVisualChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityVisualChrome.swift; sourceTree = "<group>"; };
+		302041A22FA9F15600A1DCA4 /* ScalePressButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalePressButtonStyle.swift; sourceTree = "<group>"; };
+		302041A32FA9F15600A1DCA4 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		302041A62FA9F15600A1DCA4 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		302041A72FA9F15600A1DCA4 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		302041A92FA9F15600A1DCA4 /* MomentumBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumBuilderView.swift; sourceTree = "<group>"; };
+		302041AA2FA9F15600A1DCA4 /* MomentumBuilderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumBuilderViewModel.swift; sourceTree = "<group>"; };
+		302041AC2FA9F15600A1DCA4 /* ProcessDissectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessDissectionView.swift; sourceTree = "<group>"; };
+		302041AD2FA9F15600A1DCA4 /* ProcessDissectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessDissectionViewModel.swift; sourceTree = "<group>"; };
+		302041AF2FA9F15600A1DCA4 /* WorkflowChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowChallengeView.swift; sourceTree = "<group>"; };
+		302041B02FA9F15600A1DCA4 /* WorkflowChallengeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowChallengeViewModel.swift; sourceTree = "<group>"; };
+		302041B22FA9F15600A1DCA4 /* ActivitySessionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySessionCoordinator.swift; sourceTree = "<group>"; };
+		302041B42FA9F15600A1DCA4 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		302041B62FA9F15600A1DCA4 /* DashboardRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRoute.swift; sourceTree = "<group>"; };
+		302041B72FA9F15600A1DCA4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		302041B82FA9F15600A1DCA4 /* LevelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelPickerView.swift; sourceTree = "<group>"; };
+		302041BA2FA9F15600A1DCA4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		302041BC2FA9F15600A1DCA4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		302041BE2FA9F15600A1DCA4 /* ModuleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleSelectionView.swift; sourceTree = "<group>"; };
+		302041C02FA9F15600A1DCA4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		302041C22FA9F15600A1DCA4 /* EfficiencyPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficiencyPlannerView.swift; sourceTree = "<group>"; };
+		302041C42FA9F15600A1DCA4 /* ActivityResultPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResultPayload.swift; sourceTree = "<group>"; };
+		302041C52FA9F15600A1DCA4 /* ActivityResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResultView.swift; sourceTree = "<group>"; };
+		302041C72FA9F15600A1DCA4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		302041CA2FA9F15600A1DCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302041CB2FA9F15600A1DCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302041CC2FA9F15600A1DCA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		302041CD2FA9F15600A1DCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302041CE2FA9F15600A1DCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		302041D02FA9F15600A1DCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		302041D22FA9F15600A1DCA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		302041D32FA9F15600A1DCA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		336F06EDA0938A257EAD04E2 /* Pods_156PesokortrexNendel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_156PesokortrexNendel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAB5D27DD10ACF4B490BA95 /* Pods-156PesokortrexNendel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-156PesokortrexNendel.release.xcconfig"; path = "Target Support Files/Pods-156PesokortrexNendel/Pods-156PesokortrexNendel.release.xcconfig"; sourceTree = "<group>"; };
+		A0CABC73D0D6CD9C807BF57D /* Pods-156PesokortrexNendel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-156PesokortrexNendel.debug.xcconfig"; path = "Target Support Files/Pods-156PesokortrexNendel/Pods-156PesokortrexNendel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		302040132FA9D0EC00A1DCA4 /* Exceptions for "156PesokortrexNendel" folder in "156PesokortrexNendel" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 302040002FA9D0EC00A1DCA4 /* 156PesokortrexNendel */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		302040032FA9D0EC00A1DCA4 /* 156PesokortrexNendel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				302040132FA9D0EC00A1DCA4 /* Exceptions for "156PesokortrexNendel" folder in "156PesokortrexNendel" target */,
-			);
-			path = 156PesokortrexNendel;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30203FFE2FA9D0EC00A1DCA4 /* Frameworks */ = {
@@ -42,11 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A523A4EE8B7476777B1AE15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0CABC73D0D6CD9C807BF57D /* Pods-156PesokortrexNendel.debug.xcconfig */,
+				7FAB5D27DD10ACF4B490BA95 /* Pods-156PesokortrexNendel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		30203FF82FA9D0EC00A1DCA4 = {
 			isa = PBXGroup;
 			children = (
-				302040032FA9D0EC00A1DCA4 /* 156PesokortrexNendel */,
+				302041D42FA9F15600A1DCA4 /* 156PesokortrexNendel */,
 				302040022FA9D0EC00A1DCA4 /* Products */,
+				1A523A4EE8B7476777B1AE15 /* Pods */,
+				73731F3CDE5C746C10BA7012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +119,190 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		302041A42FA9F15600A1DCA4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				302041A02FA9F15600A1DCA4 /* ProductivityFeedback.swift */,
+				302041A12FA9F15600A1DCA4 /* ProductivityVisualChrome.swift */,
+				302041A22FA9F15600A1DCA4 /* ScalePressButtonStyle.swift */,
+				302041A32FA9F15600A1DCA4 /* TextStyles.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		302041A52FA9F15600A1DCA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		302041A82FA9F15600A1DCA4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				302041A42FA9F15600A1DCA4 /* Components */,
+				302041A52FA9F15600A1DCA4 /* Extensions */,
+				302041A62FA9F15600A1DCA4 /* AppExternalLink.swift */,
+				302041A72FA9F15600A1DCA4 /* AppStorage.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		302041AB2FA9F15600A1DCA4 /* MomentumBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				302041A92FA9F15600A1DCA4 /* MomentumBuilderView.swift */,
+				302041AA2FA9F15600A1DCA4 /* MomentumBuilderViewModel.swift */,
+			);
+			path = MomentumBuilder;
+			sourceTree = "<group>";
+		};
+		302041AE2FA9F15600A1DCA4 /* ProcessDissection */ = {
+			isa = PBXGroup;
+			children = (
+				302041AC2FA9F15600A1DCA4 /* ProcessDissectionView.swift */,
+				302041AD2FA9F15600A1DCA4 /* ProcessDissectionViewModel.swift */,
+			);
+			path = ProcessDissection;
+			sourceTree = "<group>";
+		};
+		302041B12FA9F15600A1DCA4 /* WorkflowChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				302041AF2FA9F15600A1DCA4 /* WorkflowChallengeView.swift */,
+				302041B02FA9F15600A1DCA4 /* WorkflowChallengeViewModel.swift */,
+			);
+			path = WorkflowChallenge;
+			sourceTree = "<group>";
+		};
+		302041B32FA9F15600A1DCA4 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				302041AB2FA9F15600A1DCA4 /* MomentumBuilder */,
+				302041AE2FA9F15600A1DCA4 /* ProcessDissection */,
+				302041B12FA9F15600A1DCA4 /* WorkflowChallenge */,
+				302041B22FA9F15600A1DCA4 /* ActivitySessionCoordinator.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		302041B52FA9F15600A1DCA4 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				302041B42FA9F15600A1DCA4 /* AnalyticsView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		302041B92FA9F15600A1DCA4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				302041B62FA9F15600A1DCA4 /* DashboardRoute.swift */,
+				302041B72FA9F15600A1DCA4 /* DashboardView.swift */,
+				302041B82FA9F15600A1DCA4 /* LevelPickerView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		302041BB2FA9F15600A1DCA4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				302041BA2FA9F15600A1DCA4 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		302041BD2FA9F15600A1DCA4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				302041BC2FA9F15600A1DCA4 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		302041BF2FA9F15600A1DCA4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				302041BE2FA9F15600A1DCA4 /* ModuleSelectionView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		302041C12FA9F15600A1DCA4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				302041C02FA9F15600A1DCA4 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		302041C32FA9F15600A1DCA4 /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+				302041C22FA9F15600A1DCA4 /* EfficiencyPlannerView.swift */,
+			);
+			path = Planner;
+			sourceTree = "<group>";
+		};
+		302041C62FA9F15600A1DCA4 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				302041C42FA9F15600A1DCA4 /* ActivityResultPayload.swift */,
+				302041C52FA9F15600A1DCA4 /* ActivityResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		302041C82FA9F15600A1DCA4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				302041C72FA9F15600A1DCA4 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		302041C92FA9F15600A1DCA4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				302041B32FA9F15600A1DCA4 /* Activities */,
+				302041B52FA9F15600A1DCA4 /* Analytics */,
+				302041B92FA9F15600A1DCA4 /* Dashboard */,
+				302041BB2FA9F15600A1DCA4 /* Home */,
+				302041BD2FA9F15600A1DCA4 /* Main */,
+				302041BF2FA9F15600A1DCA4 /* Modules */,
+				302041C12FA9F15600A1DCA4 /* Onboarding */,
+				302041C32FA9F15600A1DCA4 /* Planner */,
+				302041C62FA9F15600A1DCA4 /* Result */,
+				302041C82FA9F15600A1DCA4 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		302041D42FA9F15600A1DCA4 /* 156PesokortrexNendel */ = {
+			isa = PBXGroup;
+			children = (
+				302041A82FA9F15600A1DCA4 /* Core */,
+				302041C92FA9F15600A1DCA4 /* Features */,
+				302041CA2FA9F15600A1DCA4 /* AppDelegate.swift */,
+				302041CB2FA9F15600A1DCA4 /* Assets.xcassets */,
+				302041CC2FA9F15600A1DCA4 /* ContentView.swift */,
+				302041CD2FA9F15600A1DCA4 /* Info.plist */,
+				302041CF2FA9F15600A1DCA4 /* LaunchScreen.storyboard */,
+				302041D12FA9F15600A1DCA4 /* Main.storyboard */,
+				302041D22FA9F15600A1DCA4 /* SceneDelegate.swift */,
+				302041D32FA9F15600A1DCA4 /* ViewController.swift */,
+			);
+			path = 156PesokortrexNendel;
+			sourceTree = "<group>";
+		};
+		73731F3CDE5C746C10BA7012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				336F06EDA0938A257EAD04E2 /* Pods_156PesokortrexNendel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 302040142FA9D0EC00A1DCA4 /* Build configuration list for PBXNativeTarget "156PesokortrexNendel" */;
 			buildPhases = (
+				59EEC9A1ABFBD1EDD40F0541 /* [CP] Check Pods Manifest.lock */,
 				30203FFD2FA9D0EC00A1DCA4 /* Sources */,
 				30203FFE2FA9D0EC00A1DCA4 /* Frameworks */,
 				30203FFF2FA9D0EC00A1DCA4 /* Resources */,
@@ -73,12 +319,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				302040032FA9D0EC00A1DCA4 /* 156PesokortrexNendel */,
-			);
 			name = 156PesokortrexNendel;
-			packageProductDependencies = (
-			);
 			productName = 156PesokortrexNendel;
 			productReference = 302040012FA9D0EC00A1DCA4 /* 156PesokortrexNendel.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +340,7 @@
 				};
 			};
 			buildConfigurationList = 30203FFC2FA9D0EC00A1DCA4 /* Build configuration list for PBXProject "156PesokortrexNendel" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +348,6 @@
 				Base,
 			);
 			mainGroup = 30203FF82FA9D0EC00A1DCA4;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 302040022FA9D0EC00A1DCA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +362,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302041F22FA9F15600A1DCA4 /* Assets.xcassets in Resources */,
+				302041F42FA9F15600A1DCA4 /* LaunchScreen.storyboard in Resources */,
+				302041F52FA9F15600A1DCA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59EEC9A1ABFBD1EDD40F0541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-156PesokortrexNendel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30203FFD2FA9D0EC00A1DCA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302041D52FA9F15600A1DCA4 /* ProductivityFeedback.swift in Sources */,
+				302041D62FA9F15600A1DCA4 /* ProductivityVisualChrome.swift in Sources */,
+				302041D72FA9F15600A1DCA4 /* ScalePressButtonStyle.swift in Sources */,
+				302041D82FA9F15600A1DCA4 /* TextStyles.swift in Sources */,
+				302041D92FA9F15600A1DCA4 /* AppExternalLink.swift in Sources */,
+				302041DA2FA9F15600A1DCA4 /* AppStorage.swift in Sources */,
+				302041DB2FA9F15600A1DCA4 /* MomentumBuilderView.swift in Sources */,
+				302041DC2FA9F15600A1DCA4 /* MomentumBuilderViewModel.swift in Sources */,
+				302041DD2FA9F15600A1DCA4 /* ProcessDissectionView.swift in Sources */,
+				302041DE2FA9F15600A1DCA4 /* ProcessDissectionViewModel.swift in Sources */,
+				302041DF2FA9F15600A1DCA4 /* WorkflowChallengeView.swift in Sources */,
+				302041E02FA9F15600A1DCA4 /* WorkflowChallengeViewModel.swift in Sources */,
+				302041E12FA9F15600A1DCA4 /* ActivitySessionCoordinator.swift in Sources */,
+				302041E22FA9F15600A1DCA4 /* AnalyticsView.swift in Sources */,
+				302041E32FA9F15600A1DCA4 /* DashboardRoute.swift in Sources */,
+				302041E42FA9F15600A1DCA4 /* DashboardView.swift in Sources */,
+				302041E52FA9F15600A1DCA4 /* LevelPickerView.swift in Sources */,
+				302041E62FA9F15600A1DCA4 /* HomeView.swift in Sources */,
+				302041E72FA9F15600A1DCA4 /* MainTabView.swift in Sources */,
+				302041E82FA9F15600A1DCA4 /* ModuleSelectionView.swift in Sources */,
+				302041E92FA9F15600A1DCA4 /* OnboardingView.swift in Sources */,
+				302041EA2FA9F15600A1DCA4 /* EfficiencyPlannerView.swift in Sources */,
+				302041EB2FA9F15600A1DCA4 /* ActivityResultPayload.swift in Sources */,
+				302041EC2FA9F15600A1DCA4 /* ActivityResultView.swift in Sources */,
+				302041ED2FA9F15600A1DCA4 /* SettingsView.swift in Sources */,
+				302041EE2FA9F15600A1DCA4 /* AppDelegate.swift in Sources */,
+				302041EF2FA9F15600A1DCA4 /* ContentView.swift in Sources */,
+				302041F02FA9F15600A1DCA4 /* SceneDelegate.swift in Sources */,
+				302041F12FA9F15600A1DCA4 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		302041CF2FA9F15600A1DCA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302041CE2FA9F15600A1DCA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		302041D12FA9F15600A1DCA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302041D02FA9F15600A1DCA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		302040152FA9D0EC00A1DCA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CABC73D0D6CD9C807BF57D /* Pods-156PesokortrexNendel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +464,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 156PesokortrexNendel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesokortrex Nendel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-56PesokortrexNendel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wri.p3s0k0rtr3xn3n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		302040162FA9D0EC00A1DCA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAB5D27DD10ACF4B490BA95 /* Pods-156PesokortrexNendel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +503,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 156PesokortrexNendel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pesokortrex Nendel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-56PesokortrexNendel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wri.p3s0k0rtr3xn3n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
